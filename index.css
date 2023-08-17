@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-image: url("./img/hero-bg.jpg");
+    background-size: cover;
+}
+   
+.header{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.header-name{
+    color: aliceblue;
+    font-family: Yeseva One;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.header-menu{
+    height: 100%;
+    width: 400px;
+    display: flex;
+}
+.header-menu-one{
+    display: flex;
+    width: 495px;
+    height: 100%;
+    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.icon{
+    display: flex;
+    width: 300px;
+    height: 100%;
+    align-items: center;
+    justify-content:space-around;
+    color: white;
+}
+.btn{
+    width: 173px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: yellow;
+}
+.main{
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 187px;
+    
+}
+.main-one{
+    color: white;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.88px;
+}
+
+.order-one{
+    width: 173px;
+        height: 45px;
+        border-radius: 50px;
+        background:yellow;
+}
+.content{
+    display: flex;
+    background-image: url(/img/1455648.webp);
+}
+.content-one{
+    margin-top: 400px;
+    color: white;
+    margin-left: 20px;
+}
+.move-one{
+    width: 173px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: yellow;
+}
+.img{
+    padding-top: 40px;
+}
