@@ -81,7 +81,7 @@ a{
 }
 .content{
     display: flex;
-    background-image: url(/img/1455648.webp);
+    background-image: url(./img/1455648.webp);
 }
 .content-one{
     margin-top: 400px;
